@@ -19,7 +19,7 @@ public class DBConnecter {
 
 	//DB接続URL
 	private static String url
-	= "jdbc:mysql://localhost/testdb?autoReconnect=true&useSSL=false";
+	= "jdbc:mysql://localhost/testdb?autooReconnect=true&useSSL=false";
 
 	//DB接続ユーザー名
 	private static String user = "root";
