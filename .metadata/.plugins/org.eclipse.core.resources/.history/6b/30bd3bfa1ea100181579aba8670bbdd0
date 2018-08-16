@@ -1,0 +1,13 @@
+drop database if exists test2db;
+create database test2db;
+use test2db;
+
+create table test2_table(
+No int,
+name varchar(50),
+pass varchar(50)
+);
+
+insert into test2_table(1,"Kato","aodo");
+insert into test2_table(2,"Oshima","dahoi");
+insert into test2_table(3,"Hirai","sjfbib");

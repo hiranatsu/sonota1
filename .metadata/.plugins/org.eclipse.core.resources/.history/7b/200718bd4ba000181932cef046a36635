@@ -1,0 +1,16 @@
+package jp.co.internous.action;
+
+public class Test {
+
+	public static void main(String[]args){
+
+		Person hirano = new Person();
+
+		hirano.name = "平野　道明";
+		hirano.age = 38;
+
+		System.out.println(hirano.name);
+		System.out.println(hirano.age);
+	}
+
+}

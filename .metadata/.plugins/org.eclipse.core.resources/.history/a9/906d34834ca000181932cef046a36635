@@ -1,0 +1,32 @@
+package jp.co.internous.action;
+
+public class Test {
+
+	public static void main(String[]args){
+
+		Person kimura = new Person();
+
+		kimura.name = "木村次郎";
+		kimura.age = 18;
+
+		Person suzuki = new Person();
+
+		suzuki.name = "鈴木花子";
+		suzuki.age = 16;
+
+		Person hirano = new Person();
+
+		hirano.name = "平野なつこ";
+		hirano.age = 25;
+
+
+		System.out.println(kimura.name);
+		System.out.println(kimura.age);
+		System.out.println(suzuki.name);
+		System.out.println(suzuki.age);
+		System.out.println(hirano.name);
+		System.out.println(hirano.age);
+
+	}
+
+}
