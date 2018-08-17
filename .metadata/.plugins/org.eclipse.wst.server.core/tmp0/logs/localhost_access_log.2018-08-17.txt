@@ -442,3 +442,16 @@
 0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:42:19 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3273
 0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:42:53 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3285
 0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:43:14 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3289
+127.0.0.1 - - [17/Aug/2018:17:09:45 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:09:46 +0900] "GET /HelloServlet/ HTTP/1.1" 200 377
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:09:49 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 404 1067
+127.0.0.1 - - [17/Aug/2018:17:45:19 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:45:21 +0900] "GET /HelloServlet/ HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:45:48 +0900] "GET /HelloServlet/TestServlet?username=&password= HTTP/1.1" 200 45
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:46:06 +0900] "GET /HelloServlet/ HTTP/1.1" 200 743
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:46:08 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:46:14 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:46:22 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:46:38 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:47:01 +0900] "POST /HelloServlet/TestServlet HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:17:47:15 +0900] "GET /HelloServlet/TestServlet?username=&password= HTTP/1.1" 200 45
