@@ -27,6 +27,13 @@ public class DBConnecter {
 	//DB接続パスワード
 	private static String password = "mysql";
 
+
+	/*Connection - 特定のデータベースとの接続(セッション)を表現します。
+	 * 接続のコンテキスト内でSQL文が実行され結果が返されます。
+	 *
+	 *
+	 */
+
   public Connection getConnection(){
 	  Connection con = null;
 	  try{
