@@ -429,3 +429,16 @@
 0:0:0:0:0:0:0:1 - - [17/Aug/2018:14:43:26 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 200 169
 0:0:0:0:0:0:0:1 - - [17/Aug/2018:14:44:26 +0900] "GET /HelloJSP/total-error.jsp HTTP/1.1" 500 2878
 0:0:0:0:0:0:0:1 - - [17/Aug/2018:14:44:47 +0900] "GET /HelloJSP/total-out.jsp HTTP/1.1" 500 3126
+127.0.0.1 - - [17/Aug/2018:15:45:53 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:15:45:54 +0900] "GET /HelloServlet/ HTTP/1.1" 200 208
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:15:45:57 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 55
+127.0.0.1 - - [17/Aug/2018:16:26:33 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:26:35 +0900] "GET /HelloServlet/ HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:26:37 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 346
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:27:17 +0900] "POST /HelloServlet/welcomeservlet HTTP/1.1" 404 1073
+127.0.0.1 - - [17/Aug/2018:16:42:13 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:42:14 +0900] "GET /HelloJSP/index.jsp HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:42:15 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3273
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:42:19 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3273
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:42:53 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3285
+0:0:0:0:0:0:0:1 - - [17/Aug/2018:16:43:14 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3289
