@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/InquiryServlet")
 public class InquiryServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
 
 
     public InquiryServlet() {

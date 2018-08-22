@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/TestServlet")
 public class TestServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
 
 
     public TestServlet() {
@@ -31,7 +30,7 @@ public class TestServlet extends HttpServlet {
 
 		PrintWriter out=response.getWriter();
 
-		out.println("<html><head></head><body><br>"+username+"</body></html>");
+		out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
 
 	}
 
