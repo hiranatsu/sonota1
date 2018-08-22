@@ -26,3 +26,8 @@
 0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:35:18 +0900] "POST /WebProj/InquiryCompleteAction.action HTTP/1.1" 200 338
 0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:35:40 +0900] "POST /WebProj/InquiryCompleteAction.action HTTP/1.1" 200 332
 0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:35:47 +0900] "POST /WebProj/InquiryCompleteAction.action HTTP/1.1" 200 344
+127.0.0.1 - - [22/Aug/2018:15:52:54 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:52:58 +0900] "GET /WebProj/ HTTP/1.1" 200 2061
+0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:53:09 +0900] "GET /WebProj/TestAction.action?username=hirano&password=123 HTTP/1.1" 200 140
+0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:53:20 +0900] "POST /WebProj/TestAction.action HTTP/1.1" 200 140
+0:0:0:0:0:0:0:1 - - [22/Aug/2018:15:53:40 +0900] "GET /WebProj/TestAction.action?username=hirano&password=Action HTTP/1.1" 200 143
