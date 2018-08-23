@@ -37,3 +37,5 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:15:39:35 +0900] "POST /WebProj2/TestAction.action HTTP/1.1" 200 203
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:15:40:03 +0900] "POST /WebProj2/InquiryAction.action HTTP/1.1" 200 935
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:15:40:21 +0900] "GET /WebProj2/TestAction.action?username=kamiya&password=789 HTTP/1.1" 200 205
+127.0.0.1 - - [23/Aug/2018:17:46:36 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:46:36 +0900] "GET /WebProj3/ HTTP/1.1" 404 1037
