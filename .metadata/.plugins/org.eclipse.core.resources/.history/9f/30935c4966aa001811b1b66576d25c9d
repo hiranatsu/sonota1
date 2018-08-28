@@ -1,0 +1,17 @@
+package com.internousdev.webproj5.util;
+
+public class DBConnector {
+
+	//JDBCドライバー名
+	private static String driverName = "com.mysql.jdbc.Driver";
+
+	//DB接続URL
+	private static String url = "jdbc:mysql://localhost/projdb5";
+
+	//DB接続ユーザー名
+	private static String user = "root";
+
+	//DB接続パスワード
+	private static String password = "mysql";
+
+}

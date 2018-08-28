@@ -31,3 +31,8 @@
 0:0:0:0:0:0:0:1 - - [27/Aug/2018:16:52:45 +0900] "POST /WebProj4/WelcomeAction.action HTTP/1.1" 200 844
 0:0:0:0:0:0:0:1 - - [27/Aug/2018:16:52:47 +0900] "POST /WebProj4/InquiryAction.action HTTP/1.1" 200 937
 0:0:0:0:0:0:0:1 - - [27/Aug/2018:16:53:01 +0900] "POST /WebProj4/InquiryCompleteAction.action HTTP/1.1" 200 631
+127.0.0.1 - - [27/Aug/2018:17:46:55 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:17:46:58 +0900] "GET /WebProj4/ HTTP/1.1" 200 2077
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:17:47:22 +0900] "POST /WebProj4/TestAction.action HTTP/1.1" 200 403
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:17:47:22 +0900] "GET /WebProj4/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:17:50:47 +0900] "GET /WebProj4/TestAction.action?username=koga&password=saor HTTP/1.1" 200 402
