@@ -1,0 +1,5 @@
+package com.internousdev.osarai2.dao;
+
+public class HelloStrutsDAO {
+
+}

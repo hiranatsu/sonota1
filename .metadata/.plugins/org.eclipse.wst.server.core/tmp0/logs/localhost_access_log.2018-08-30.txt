@@ -17,3 +17,16 @@
 0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:45:01 +0900] "POST /Osarai1/LoginAction.action HTTP/1.1" 200 171
 0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:48:23 +0900] "GET /Osarai1/ HTTP/1.1" 200 785
 0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:48:29 +0900] "POST /Osarai1/LoginAction.action HTTP/1.1" 200 171
+127.0.0.1 - - [30/Aug/2018:15:50:59 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:51:00 +0900] "GET /Osarai1/ HTTP/1.1" 200 785
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:51:13 +0900] "POST /Osarai1/LoginAction.action HTTP/1.1" 200 177
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:51:29 +0900] "POST /Osarai1/LoginAction.action HTTP/1.1" 200 177
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:51:37 +0900] "POST /Osarai1/LoginAction.action HTTP/1.1" 200 177
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:15:51:49 +0900] "POST /Osarai1/LoginAction.action HTTP/1.1" 200 171
+127.0.0.1 - - [30/Aug/2018:17:08:19 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:17:08:21 +0900] "GET /Osarai2/ HTTP/1.1" 200 459
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:17:08:51 +0900] "POST /Osarai2/HelloStrutsAction.action;jsessionid=013D5996F3E97395E91A705B6D653AF0 HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:17:09:06 +0900] "POST /Osarai2/HelloStrutsAction.action;jsessionid=013D5996F3E97395E91A705B6D653AF0 HTTP/1.1" 200 9433
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:17:21:26 +0900] "GET /Osarai2/ HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:17:21:27 +0900] "POST /Osarai2/HelloStrutsAction.action HTTP/1.1" 200 190
+0:0:0:0:0:0:0:1 - - [30/Aug/2018:17:21:37 +0900] "POST /Osarai2/HelloStrutsAction.action HTTP/1.1" 200 9433
