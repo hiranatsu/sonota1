@@ -1,0 +1,13 @@
+package com.internousdev.osarai3.dao;
+
+import java.sql.;
+import java.sql.;
+import java.sql.;
+import java.sql.;
+import com.internousdev.osarai3.dto.HelloStrutsDTO;
+import com.internousdev.osarai3.util.DBConnector;
+
+
+public class HelloStrutsDAO {
+
+}
