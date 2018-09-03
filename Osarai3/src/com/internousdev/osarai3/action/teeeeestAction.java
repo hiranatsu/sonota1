@@ -1,0 +1,5 @@
+package com.internousdev.osarai3.action;
+
+public class teeeeestAction {
+public String test;
+}
