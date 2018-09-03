@@ -1,7 +1,0 @@
-package com.internousdev.webproj3.dao;
-
-import java.sql.;
-
-public class LoginDAO {
-
-}
